@@ -5,7 +5,7 @@ const app = express()
 const methodOverride = require('method-override')
 const dashboardController = require("./controllers/dashboardController")
 const userController = require("./controllers/userController")
-const companyController = require("./controllers/userController")
+const companyController = require("./controllers/companyController")
 
 
 // Config app set and use-----------------------------------
