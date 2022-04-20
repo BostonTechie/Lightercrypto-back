@@ -7,11 +7,12 @@ const dashboardController = require("./controllers/dashboardController")
 const userController = require("./controllers/userController")
 const companyController = require("./controllers/userController")
 
+
 // Config app set and use-----------------------------------
 app.set("port", process.env.PORT || 3000)
 app.use(express.static('public'))
-app.use(methodOverride('_method'));
-app.use(express.urlencoded({extended:false}));
+app.use(methodOverride('_method'))
+app.use(express.urlencoded({extended:false}))
 app.set('view engine', 'ejs')
 
 
@@ -28,7 +29,7 @@ app.get('/', (req, res) => {
   })
 
 
-
+// launch the app on the specified port ---------------
   app.listen(app.get("port"), () => {
-    console.log(`✅ PORT: ${app.get("port")} 🌟`);
-  });
+    console.log(`✅ PORT: ${app.get("port")} 🌟`)
+  })
