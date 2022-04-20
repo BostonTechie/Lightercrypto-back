@@ -1,0 +1,1 @@
+npm i ejs express express-ejs-layouts method-override mongoose dotenv bcrypt express-session axios cors            
