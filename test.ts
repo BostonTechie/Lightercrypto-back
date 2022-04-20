@@ -16,4 +16,3 @@ async function hello() {
 //     }
 // }
 
-const url = new URL()
